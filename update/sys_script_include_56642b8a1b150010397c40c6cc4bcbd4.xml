@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.sumTwoNums</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>sumTwoNums</name>
+        <script><![CDATA[function sumTwoNums(a, b){
+	var sum = a+b;
+	gs.addInfoMessage("Sum of two numbers: " + sum);
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-25 12:04:28</sys_created_on>
+        <sys_id>56642b8a1b150010397c40c6cc4bcbd4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sumTwoNums</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_56642b8a1b150010397c40c6cc4bcbd4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-25 12:06:10</sys_updated_on>
+    </sys_script_include>
+</record_update>
