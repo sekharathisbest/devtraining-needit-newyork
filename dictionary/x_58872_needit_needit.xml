@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="4" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="6" type="collection">
         <element label="Requested Email" max_length="40" name="requested_email" type="string"/>
         <element choice="1" label="Request type" max_length="40" name="request_type" type="choice">
             <choice>
